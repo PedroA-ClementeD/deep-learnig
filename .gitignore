@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+resultados_cnn.zip
+# Keras descarga CIFAR-10 en ~/.keras, fuera del repo. No hace falta subir el dataset.
