@@ -34,11 +34,11 @@ cnn-cifar10/
 
 | Métrica | Valor |
 |---|---|
-| Accuracy en prueba | [completar] |
-| Pérdida en prueba | [completar] |
-| Épocas entrenadas | [completar] |
-| Mejor clase (F1) | [completar] |
-| Peor clase (F1) | [completar] |
+| Accuracy en prueba | 0.8353 |
+| Pérdida en prueba | 0.4943 |
+| Épocas entrenadas | 40 |
+| Mejor clase (F1) | Automóvil (0.931) |
+| Peor clase (F1) | Gato (0.702) |
 
 ![Entrenamiento](reports/entrenamiento.png)
 ![Matriz de confusión](reports/matriz_confusion.png)

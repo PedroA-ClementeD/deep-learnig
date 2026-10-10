@@ -1,6 +1,7 @@
 # Usa la misma versión de TensorFlow que imprimió Colab (celda 1 del notebook).
 # Ejemplo: si Colab dijo 2.19.0, cambia la línea de abajo por tensorflow==2.19.0
-tensorflow>=2.16,<3
+tensorflow==2.21.0
+keras==3.13.2
 streamlit>=1.50
 pillow
 numpy
