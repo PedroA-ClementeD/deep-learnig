@@ -1,4 +1,5 @@
 # Clasificador de imágenes con CNN (CIFAR-10)
+**Repositorio:** https://github.com/PedroA-ClementeD/deep-learnig
 
 Red Neuronal Convolucional entrenada en Google Colab para clasificar imágenes en 10 clases: avión, automóvil, pájaro, gato, ciervo, perro, rana, caballo, barco y camión. Incluye una aplicación en Streamlit que carga el modelo entrenado y predice la clase de una imagen subida por el usuario, con su nivel de confianza.
 
@@ -73,7 +74,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Si al abrir el modelo aparece un error de versión, instala la misma versión de TensorFlow que usó Colab (la imprime la primera celda del notebook), por ejemplo `pip install tensorflow==2.19.0`.
+Si al abrir el modelo aparece un error de versión, instala la misma versión de TensorFlow que usó Colab (la imprime la primera celda del notebook), por ejemplo `pip install tensorflow==2.21.0`.
 
 ### 3. Ejecutar la aplicación Streamlit
 
