@@ -55,17 +55,19 @@ cnn-cifar10/
 5. En Colab: **Archivo → Descargar → Descargar .ipynb** y reemplaza `notebooks/cnn_cifar10.ipynb` con esa versión, que ya trae las salidas y las gráficas.
 
 ### 2. Instalar el entorno local
-# La versión de python debe ser la 3.12
-py -3.12 -m venv .venv
+
+Requiere Python 3.12 o 3.13. 
 
 ```bash
-git clone <url-del-repositorio>
-cd cnn-cifar10
+git clone https://github.com/PedroA-ClementeD/deep-learnig.git
+cd deep-learnig
 
-
-# Windows
+# Windows (indicando la versión de Python)
+py -3.12 -m venv .venv
 .venv\Scripts\activate
+
 # Linux / macOS
+python3.12 -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
