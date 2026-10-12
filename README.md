@@ -55,13 +55,13 @@ cnn-cifar10/
 5. En Colab: **Archivo → Descargar → Descargar .ipynb** y reemplaza `notebooks/cnn_cifar10.ipynb` con esa versión, que ya trae las salidas y las gráficas.
 
 ### 2. Instalar el entorno local
-
-Requiere Python 3.10 a 3.13.
+# La versión de python debe ser la 3.12
+py -3.12 -m venv .venv
 
 ```bash
 git clone <url-del-repositorio>
 cd cnn-cifar10
-python -m venv .venv
+
 
 # Windows
 .venv\Scripts\activate
@@ -79,7 +79,7 @@ Si al abrir el modelo aparece un error de versión, instala la misma versión de
 streamlit run app.py
 ```
 
-Se abre en el navegador en `http://localhost:8501`. Sube una imagen JPG o PNG y la aplicación muestra la clase predicha, la confianza y la probabilidad de cada una de las 10 clases.
+Se abre en el navegador en `http://localhost:8501`, esperar a que cargue y subir una imagen JPG o PNG y la aplicación muestra la clase predicha, la confianza y la probabilidad de cada una de las 10 clases.
 
 ### 4. Usar los scripts (opcional)
 
